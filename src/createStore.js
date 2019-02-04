@@ -21,5 +21,5 @@ function render() {
   const container = document.getElementById('container');
 }
 
-let store = createStore(changeCount)
+let store = createStore(reducer)
 store.dispatch({ type: '@@INIT' });
